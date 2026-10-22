@@ -9,8 +9,7 @@
 struct song{
     char *songname;
     char *mood;
-    char *command;
-    int key;   
+    char *command;  
 };
 
 void defaultplaylist(struct song data[15]);
